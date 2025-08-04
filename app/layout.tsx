@@ -32,11 +32,11 @@ export const metadata: Metadata = {
     title: "Easy Tool Space – Free Online Tools for Everyday Needs",
     description:
       "Access powerful utilities like image to text, SQL builders, and more. 100% free and user-friendly. Try Easy Tool Space today!",
-    url: "https://easytoolspace.com",
+    url: "https://easytoolspace.vercel.app",
     siteName: "Easy Tool Space",
     images: [
       {
-        url: "https://easytoolspace.com/og-image.png", // Replace with your actual OG image
+        url: "https://easytoolspace.vercel.app/export.png", // Replace with your actual OG image
         width: 1200,
         height: 630,
         alt: "Easy Tool Space OG Image",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     title: "Easy Tool Space – Free Online Tools",
     description:
       "Try powerful online tools like image to text, text to speech, SQL builders and more. All free at Easy Tool Space!",
-    images: ["https://easytoolspace.com/og-image.png"], // Same OG image
+    images: ["https://easytoolspace.vercel.app/export.png"], // Same OG image
   },
 };
 

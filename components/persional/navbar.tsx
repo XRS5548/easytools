@@ -31,7 +31,7 @@ export function NavbarTop() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-      <Navbar>
+      <Navbar className="z-50">
         {/* Desktop Navigation */}
         <NavBody>
           <NavbarLogo />

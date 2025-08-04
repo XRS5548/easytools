@@ -27,9 +27,11 @@ const secondaryVariant = {
 };
 
 export const FileUpload = ({
-  onChange,
+  onChange,multiple=false,accept = "image/png, image/jpeg, image/jpg, image/webp"
 }: {
   onChange?: (files: File[]) => void;
+  multiple:boolean;
+  accept?:string;
 }) => {
   const [files, setFiles] = useState<File[]>([]);
   const fileInputRef = useRef<HTMLInputElement>(null);
@@ -44,7 +46,6 @@ export const FileUpload = ({
   };
 
   const { getRootProps, isDragActive } = useDropzone({
-    multiple: false,
     noClick: true,
     onDrop: handleFileChange,
     onDropRejected: (error) => {
@@ -62,8 +63,9 @@ export const FileUpload = ({
         <input
           ref={fileInputRef}
           id="file-upload-handle"
+          accept={accept}
           type="file"
-          multiple={false}
+          multiple={multiple}
           
           onChange={(e) => handleFileChange(Array.from(e.target.files || []))}
           className="hidden"
