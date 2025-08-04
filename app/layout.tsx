@@ -64,6 +64,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <meta name="google-site-verification" content="GomtazhKgWAzvnfXrJgXseR8x0jmh5-C8Ogt68aCfkg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
@@ -72,7 +73,7 @@ export default function RootLayout({
         />
       </head>
       <body>
-         
+
         <Analytics />
         <ThemeProvider
           attribute="class"
