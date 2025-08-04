@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { NavbarTop } from "@/components/persional/navbar";
+import { Footer } from "@/components/persional/footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -61,7 +62,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head />
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body>
         <ThemeProvider
           attribute="class"
@@ -72,6 +80,7 @@ export default function RootLayout({
           <NavbarTop />
 
           {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
