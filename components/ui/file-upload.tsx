@@ -30,7 +30,7 @@ export const FileUpload = ({
   onChange,multiple=false,accept = "image/png, image/jpeg, image/jpg, image/webp"
 }: {
   onChange?: (files: File[]) => void;
-  multiple:boolean;
+  multiple?:boolean;
   accept?:string;
 }) => {
   const [files, setFiles] = useState<File[]>([]);
