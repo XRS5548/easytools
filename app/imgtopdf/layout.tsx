@@ -33,12 +33,12 @@ export const metadata: Metadata = {
     title: "Free Online Image to PDF Converter - Easy Tool Space",
     description:
       "Quickly turn images into PDF files online. 100% free, secure, and works in your browser without uploading.",
-    url: "https://easytoolspace.com/images-to-pdf",
+    url: "https://easytoolspace.vercel.app/imgtopdf",
     siteName: "Easy Tool Space",
     type: "website",
     images: [
       {
-        url: "https://easytoolspace.com/og/image-to-pdf-og.png", // Change to your OG image URL
+        url: "https://easytoolspace.vercel.app/images/imgtopdf.png", // Change to your OG image URL
         width: 1200,
         height: 630,
         alt: "Convert Image to PDF Tool - Easy Tool Space",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     title: "Free Online Image to PDF Converter",
     description:
       "Turn JPG, PNG, and more into a single PDF file with no downloads or registration.",
-    images: ["https://easytoolspace.com/og/image-to-pdf-og.png"], // Same as OG image
+    images: ["https://easytoolspace.vercel.app/images/imgtopdf.png"], // Same as OG image
   },
 };
 
