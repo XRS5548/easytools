@@ -4,7 +4,8 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { NavbarTop } from "@/components/persional/navbar";
 import { Footer } from "@/components/persional/footer";
-
+import NextTopLoader from 'nextjs-toploader';
+import { Analytics } from "@vercel/analytics/next"
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -71,12 +72,15 @@ export default function RootLayout({
         />
       </head>
       <body>
+         
+        <Analytics />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
+          <NextTopLoader />
           <NavbarTop />
 
           {children}
