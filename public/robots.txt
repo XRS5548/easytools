@@ -2,5 +2,8 @@
 User-agent: *
 Allow: /
 
+# Host
+Host: https://easytoolspace.vercel.app
+
 # Sitemaps
 Sitemap: https://easytoolspace.vercel.app/sitemap.xml

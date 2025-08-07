@@ -6,6 +6,7 @@ import { NavbarTop } from "@/components/persional/navbar";
 import { Footer } from "@/components/persional/footer";
 import NextTopLoader from 'nextjs-toploader';
 import { Analytics } from "@vercel/analytics/next"
+import Script from "next/script";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -72,6 +73,7 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap"
           rel="stylesheet"
         />
+        <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9509089570774470"></Script>
       </head>
       <body>
 
