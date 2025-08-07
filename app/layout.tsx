@@ -67,6 +67,7 @@ export default function RootLayout({
         <meta name="google-site-verification" content="GomtazhKgWAzvnfXrJgXseR8x0jmh5-C8Ogt68aCfkg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <meta name="google-adsense-account" content="ca-pub-9509089570774470"></meta>
         <link
           href="https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap"
           rel="stylesheet"
