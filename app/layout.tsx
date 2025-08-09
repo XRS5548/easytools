@@ -74,6 +74,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
         <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9509089570774470"></Script>
+        <Script async src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"></Script>
       </head>
       <body>
 
@@ -89,6 +90,15 @@ export default function RootLayout({
 
           {children}
           <Footer />
+          <Script id="adsense-init" strategy="afterInteractive">
+            {`
+          (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-9509089570774470",
+            enable_page_level_ads: true
+          });
+        `}
+          </Script>
+
         </ThemeProvider>
       </body>
     </html>
