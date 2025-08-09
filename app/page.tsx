@@ -1,3 +1,4 @@
+import ArticalAds from '@/components/ads/ArticalAdd';
 import { HeroSection } from '@/components/persional/hero-section'
 import MyToolsSection from '@/components/persional/MyTools';
 import { NavbarTop } from '@/components/persional/navbar'
@@ -10,6 +11,7 @@ export default function page() {
   return (
     <>
       <HeroSection />
+      <ArticalAds />
       <MyToolsSection />
     </>
   )
