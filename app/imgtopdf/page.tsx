@@ -4,6 +4,7 @@ import React, { useRef, useState } from 'react';
 import { jsPDF } from 'jspdf';
 import { FileUpload } from '@/components/ui/file-upload';
 import { LoaderThree } from '@/components/ui/loader';
+import ArticalAds from '@/components/ads/ArticalAdd';
 
 export default function ImagesToPDFPreview() {
     const [pdfUrl, setPdfUrl] = useState<string | null>(null);
@@ -104,7 +105,7 @@ export default function ImagesToPDFPreview() {
                     servers. Just choose your images, and the PDF is created and displayed instantly on the
                     screen — ready to be viewed, saved, or printed.
                 </p>
-
+                <ArticalAds />
                 <h3 className="text-2xl font-semibold pt-6">🖼️ Supported Image Formats</h3>
                 <ul className="list-disc list-inside space-y-1">
                     <li>JPG / JPEG</li>

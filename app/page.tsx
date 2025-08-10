@@ -11,7 +11,6 @@ export default function page() {
   return (
     <>
       <HeroSection />
-      <ArticalAds />
       <MyToolsSection />
     </>
   )
