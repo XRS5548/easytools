@@ -1,4 +1,17 @@
 [
+    
+     {
+        "title":"Profile Dp testing tool - upload and test image preview as a profile image",
+        "description": "Converts image to Text",
+        "image":"/images/profiledptester.png",
+        "url":"/profiledptester"
+    },
+    {
+        "title":"Unit Converter — Length & Weight",
+        "description": "Convert scientific and common units of length and weight with precision. Supports SI prefixes and common imperial units.",
+        "image":"/images/unitconverter.png",
+        "url":"/unitconverter"
+    },
     {
         "title":"Images to Pdf converter",
         "description": "Converts images to pdf",
@@ -11,4 +24,5 @@
         "image":"/images/imgtotext.png",
         "url":"/imgtotext"
     }
+   
 ]
